@@ -4,12 +4,16 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Ivan/AndroidStudioProjects/pertemuan3_navigation/app/src/main/res/drawable/ic_chat.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/Ivan/AndroidStudioProjects/pertemuan3_navigation/app/src/main/res/drawable/ic_grade.xml" value="0.22083333333333333" />
         <entry key="..\:/Users/Ivan/AndroidStudioProjects/pertemuan3_navigation/app/src/main/res/drawable/ic_message.xml" value="0.22083333333333333" />
         <entry key="..\:/Users/Ivan/AndroidStudioProjects/pertemuan3_navigation/app/src/main/res/drawable/ic_profile.xml" value="0.22083333333333333" />
         <entry key="..\:/Users/Ivan/AndroidStudioProjects/pertemuan3_navigation/app/src/main/res/layout/activity_main.xml" value="0.12273550724637682" />
         <entry key="..\:/Users/Ivan/AndroidStudioProjects/pertemuan3_navigation/app/src/main/res/layout/fragment_chat.xml" value="0.14114583333333333" />
+        <entry key="..\:/Users/Ivan/AndroidStudioProjects/pertemuan3_navigation/app/src/main/res/layout/fragment_grade.xml" value="0.18840579710144928" />
+        <entry key="..\:/Users/Ivan/AndroidStudioProjects/pertemuan3_navigation/app/src/main/res/layout/fragment_list.xml" value="0.18840579710144928" />
         <entry key="..\:/Users/Ivan/AndroidStudioProjects/pertemuan3_navigation/app/src/main/res/layout/fragment_message.xml" value="0.12273550724637682" />
         <entry key="..\:/Users/Ivan/AndroidStudioProjects/pertemuan3_navigation/app/src/main/res/layout/fragment_profile.xml" value="0.12273550724637682" />
+        <entry key="..\:/Users/Ivan/AndroidStudioProjects/pertemuan3_navigation/app/src/main/res/layout/fragment_settings.xml" value="0.18840579710144928" />
         <entry key="..\:/Users/Ivan/AndroidStudioProjects/pertemuan3_navigation/app/src/main/res/layout/nav_header.xml" value="0.22" />
         <entry key="..\:/Users/Ivan/AndroidStudioProjects/pertemuan3_navigation/app/src/main/res/menu/draw_menu.xml" value="0.33" />
       </map>

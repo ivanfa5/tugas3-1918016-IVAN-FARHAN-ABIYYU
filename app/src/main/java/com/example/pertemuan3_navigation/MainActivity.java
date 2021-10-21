@@ -36,23 +36,23 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 //membuat default navigation menu select
         if(savedInstanceState == null){
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
-                    new MessageFragment()).commit();
-            navigationView.setCheckedItem(R.id.nav_message);}
+                    new ListFragment()).commit();
+            navigationView.setCheckedItem(R.id.nav_list);}
     }
     //drawer menu fragment handler
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()){
-            case R.id.nav_message:
-                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new MessageFragment()).commit();
+            case R.id.nav_list:
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new ListFragment()).commit();
                 break;
-            case R.id.nav_chat:
+            case R.id.nav_grade:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
-                        new ChatFragment()).commit();
+                        new GradeFragment()).commit();
                 break;
-            case R.id.nav_profile:
+            case R.id.nav_settings:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
-                        new ProfileFragment()).commit();
+                        new SettingsFragment()).commit();
                 break;
         }
         drawer.closeDrawer(GravityCompat.START);

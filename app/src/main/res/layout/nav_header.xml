@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="176dp"
-    android:background="#FD8C14"
-    android:gravity="bottom"
+    android:layout_height="200dp"
+    android:background="#FF9800"
+    android:gravity="center"
     android:orientation="vertical"
     android:padding="16dp"
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@mipmap/ic_launcher_round" />
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ivanee" />
 
     <Space
         android:layout_width="match_parent"
@@ -20,11 +23,15 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Membuat Navigation by 1918016"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+        android:fontFamily="sans-serif-black"
+        android:text="IVAN FARHAN ABIYYU"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="16sp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Lab. Mobile Programming" />
+        android:fontFamily="sans-serif-medium"
+        android:text="insyaallahgakmirip@gmail.com"
+        android:textSize="14sp" />
 </LinearLayout>
